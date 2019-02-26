@@ -46,13 +46,17 @@ footer {
 }
 
 #mens{
-  background-color: white;
+  background-color: green;
 
 }
 
 #womens{
   background-color: black;
 
+}
+
+.row {
+  background-color: white;
 }
 
 
