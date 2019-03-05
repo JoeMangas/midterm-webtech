@@ -1,3 +1,7 @@
+html{
+  overflow-x: hidden;
+}
+
 ul{
 	display: block;
 }
@@ -22,37 +26,42 @@ ul{
 }
 
 body {
-	background-color: darkorange;
+	background-image: url('images/snowflake.jpeg');
+  background-repeat: repeat;
 }
 header {
-	background-color: darkblue;
+	background-image: url('images/sky.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%
 }
+
 footer {
-	background-color: lightblue;
+	background-image: url('images/snowyground.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%
 }
 
 * {
   box-sizing: border-box;
 }
 
-#baby{
-  background-color: deeppink;
+h1, h2 {
+  text-align: center;
+  color: blue;
 
 }
 
-#dogs{
-  background-color: darkviolet;
-
-}
-
-#mens{
-  background-color: green;
-
-}
-
-#womens{
-  background-color: black;
-
+span {
+  background-color: white; 
+  opacity: .8;
 }
 
 .row {
