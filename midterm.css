@@ -136,5 +136,10 @@ span {
         margin-right: auto;
        }
 
-
-
+/* Formatting for the images */
+#column {
+  float: left;
+  height: 20%;
+  width: 15%;
+  padding: 5px;
+}
